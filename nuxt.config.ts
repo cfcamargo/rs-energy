@@ -9,5 +9,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxt/image', 'nuxt-swiper','@nuxtjs/device',]
+  modules: ['@nuxt/image', 'nuxt-swiper','@nuxtjs/device',],
+  plugins: [
+    '@/plugins/maska.ts'
+  ]
 })
