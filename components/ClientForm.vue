@@ -1,6 +1,6 @@
 <template>
-    <form class="" @submit.prevent="submit">
-        <div class="flex flex-col gap-2">
+    <form class="flex flex-col gap-4" @submit.prevent="submit">
+        <div>
             <label for="Name">Nome</label>
             <input class="w-full p-2 border border-primary rounded placeholder:text-gray-800 outline-none" type="text" id="name" v-model="form.name" placeholder="Insira seu nome">
         </div>
