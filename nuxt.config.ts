@@ -12,5 +12,11 @@ export default defineNuxtConfig({
   modules: ['@nuxt/image', 'nuxt-swiper','@nuxtjs/device',],
   plugins: [
     '@/plugins/maska.ts'
-  ]
+  ],
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    }
+  }
 })

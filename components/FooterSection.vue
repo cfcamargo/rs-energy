@@ -5,7 +5,7 @@
                 <NuxtImg src="/logowhite.png"/>
                 <div class="flex xs:flex-col md:flex-row xs:gap-10 md:gap-20 mt-10">
                     <div class="flex flex-col gap-2 text-white">
-                        <span class="font-bold text-lg">Endereco</span>
+                        <span class="font-bold text-lg">Endereço</span>
 
                         <span>Rua Tupã, Nº637 - Ponta Porã/MS</span>
                         <span>CEP: 79901-266</span>

@@ -8,12 +8,12 @@
                 <div class="flex flex-col xs:items-center md:items-start gap-2 mt-6">
                     <div class="flex gap-2 items-center">
                         <IconGarantia />
-                        <p class="text-primary text-xl"><span class="font-bold">Garantia</span> de geracao</p>
+                        <p class="text-primary text-xl"><span class="font-bold">Garantia</span> de geração</p>
                     </div>
 
                     <div class="flex gap-2 items-center">
                         <IconDesconto />
-                        <p class="text-primary text-xl">Valor da sua Conta<span class="font-bold">já descontado</span></p>
+                        <p class="text-primary text-xl">Valor da sua Conta <span class="font-bold">já descontado</span></p>
                     </div>
 
                     <div class="flex gap-2 items-center">
@@ -22,7 +22,10 @@
                     </div>
                 </div>
 
-                <a href="#contato" class="mt-6 bg-primary xs:w-full md:w-[300px] py-4 flex justify-center items-center text-white font-bold rounded hover:brightness-105">EU QUERO ECONOMIZAR</a>
+                <a href="#contato" class="mt-6 bg-primary xs:w-full md:w-[300px] py-4 flex justify-center items-center text-white font-bold rounded hover:brightness-105 gap-4">
+                    EU QUERO ECONOMIZAR
+                    <IconWhatsapp />
+                </a>
             </div>
         </Container>
     </section>
