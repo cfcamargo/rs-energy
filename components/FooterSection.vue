@@ -37,6 +37,9 @@
             </div>
         </Container>
     </footer>
+    <div class="w-full flex justify-center items-center bg-secondary border-t border-white py-2">
+        <span class="text-sm text-white">&copy; Todos os direitos reservados – RS energy</span>
+    </div>
 </template>
 
 <script setup lang="ts">

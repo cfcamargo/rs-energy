@@ -11,11 +11,13 @@
     <Contact />
   </main>
   <FooterSection />
+  <OwnerFooter />
   <ScrollToTop />
 </template>
 
 <script>
 import 'animate.css';
+import OwnerFooter from './components/OwnerFooter.vue';
 
 useHead({
   title: 'RS Energy | Soluções em Energia Solar',
