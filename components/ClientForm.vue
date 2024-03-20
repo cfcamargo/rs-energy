@@ -2,20 +2,20 @@
     <form class="flex flex-col gap-4" @submit.prevent="submit">
         <div>
             <label for="Name">Nome</label>
-            <input required class="w-full p-2 borderrounded placeholder:text-gray-800 outline-none" type="text" id="name" v-model="form.name" placeholder="Insira seu nome" :class="invalid && form.name === '' ? 'border-red-500':'border-primary'">
+            <input required class="w-full p-2 border rounded placeholder:text-gray-800 outline-none" type="text" id="name" v-model="form.name" placeholder="Insira seu nome" :class="invalid && form.name === '' ? 'border-red-500':'border-primary'">
         </div>
 
         <div>
             <label for="mail">Email</label>
-            <input required class="w-full p-2 border border-primary rounded placeholder:text-gray-800 outline-none" type="mail" id="mail" v-model="form.email" placeholder="insira seu email" :class="invalid && form.email === '' ? 'border-red-500':'border-primary'">
+            <input required class="w-full p-2 border rounded placeholder:text-gray-800 outline-none" type="mail" id="mail" v-model="form.email" placeholder="insira seu email" :class="invalid && form.email === '' ? 'border-red-500':'border-primary'">
         </div>
 
         <div>
             <label for="Phone">Telefone</label>
-            <input required v-maska data-maska="(##) # ####-####" class="w-full p-2 border border-primary rounded placeholder:text-gray-800 outline-none" type="text" id="Phone" v-model="form.phone" placeholder="insira seu telefone" :class="invalid && form.phone === '' ? 'border-red-500':'border-primary'">
+            <input required v-maska data-maska="(##) # ####-####" class="w-full p-2 border rounded placeholder:text-gray-800 outline-none" type="text" id="Phone" v-model="form.phone" placeholder="insira seu telefone" :class="invalid && form.phone === '' ? 'border-red-500':'border-primary'">
         </div>
         <div class="w-full flex justify-end py-2">
-            <button type="submit" class="p-4 flex justify-center items-center bg-primary rounded text-white xs:w-full font-bold md:w-[200px] h-[50px]" :disabled="form.email === '' || form.name === '' || form.phone === ''">
+            <button type="submit" class="p-4 flex justify-center items-center bg-primary rounded text-white xs:w-full font-bold md:w-[200px] h-[50px] disabled:bg-primary/40" :disabled="form.email === '' || form.name === '' || form.phone === ''">
                 <LoaderCircle class="animate-spin" :size="20" v-if="loading"/>
                 <span v-else>Enviar</span>
             </button>
