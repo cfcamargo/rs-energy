@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full mb-20">
+    <section id="farms" class="w-full mb-20">
         <div class="w-full pt-20 pb-40 mt-10 bg-primary">
             <h3 class="text-center xs:text-3xl md:text-5xl font-bold text-white">Conheca nossas <br/>Fazendas</h3>
         </div>
@@ -14,7 +14,7 @@
                 <NuxtImg src="/farm3.png" class="object-cover w-full h-full"/>
             </div>
         </div>
-    </div>
+    </section>
 
 </template>
 

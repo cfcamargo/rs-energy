@@ -38,7 +38,6 @@
 </template>
 
 <script setup lang="ts">
-import 'animate.css';
 import { LoaderCircle, MailCheck, MailWarning, X } from 'lucide-vue-next';
 
 const apiURL = 'https://sunriseenergy.gdgestao.com.br/Consumidor/CadastrarProspeccaoCliente'

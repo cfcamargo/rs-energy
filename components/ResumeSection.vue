@@ -1,5 +1,5 @@
 <template>
-    <Container class="grid xs:grid-cols-1 md:grid-cols-2 py-20">
+    <Container class="grid xs:grid-cols-1 md:grid-cols-2 py-20" id="resume">
         <div class="xs:order-2 md:order-1">
             <NuxtImg src="/graphic.png" />
         </div>

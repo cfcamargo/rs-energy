@@ -11,8 +11,10 @@
     <Contact />
   </main>
   <FooterSection />
+  <ScrollToTop />
 </template>
 
 <script>
+import 'animate.css';
 
 </script>

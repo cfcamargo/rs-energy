@@ -1,5 +1,5 @@
 <template>
-    <div class="py-20">
+    <section id="results" class="py-20">
         <Container class="flex flex-col gap-10 justify-center items-center">
             <h4 class="font-bold text-5xl text-center text-secondary">Números que alavancam:</h4>
             <div class="grid xs:grid-cols-1 md:grid-cols-3 gap-8 mt-4">
@@ -32,7 +32,7 @@
                 <IconWhatsapp />
             </a>
         </Container>
-    </div>
+    </section>
 </template>
 
 <script setup lang="ts">
