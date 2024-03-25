@@ -67,15 +67,23 @@ const submit = async() => {
         return
     }
 
+    const PC = {
+        Nome: form.name,
+        Email: form.email,
+        Telefone: form.phone
+    };
+
+    const formData = new FormData();
+    formData.append("PC.Nome", PC.Nome);
+    formData.append("PC.Email", PC.Email);
+    formData.append("PC.Telefone", PC.Telefone);
+
     invalid.value = false
     loading.value = true
     try {
         const response = await fetch(apiURL, {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(form)
+            body: formData
         })
         if (response.ok) {
             poupopStatus.show = true

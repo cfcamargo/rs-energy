@@ -3,7 +3,7 @@
         <Container class="h-full flex xs:items-start md:items-center">
             <div class="flex flex-col gap-2 xs:mt-8 md:mt-0">
                 <p class="xs:text-center md:text-start font-light">Chega de pagar <span class="font-bold text-primary">contas de energia abusivas</span></p>
-                <h2 class="xs:text-3xl xs:text-center md:text-start md:text-5xl max-w-[500px] font-bold text-secondary">Reduza sua conta de energia em até 20% com a RS Energy</h2>
+                <h2 class="xs:text-3xl xs:text-center md:text-start md:text-5xl max-w-[500px] font-bold text-secondary">Reduza sua conta de energia em até 40% com a RS Energy</h2>
 
                 <div class="flex flex-col xs:items-center md:items-start gap-2 mt-6">
                     <div class="flex gap-2 items-center">
