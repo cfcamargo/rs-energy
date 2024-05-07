@@ -5,7 +5,7 @@
     <ResumeSection />
     <FarmsSection />
     <CardsSection />
-    <Testimonials />
+    <!-- <Testimonials /> -->
     <CallToActionBanner />
     <EmployerSection />
     <Contact />
