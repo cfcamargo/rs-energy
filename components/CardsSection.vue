@@ -6,15 +6,15 @@
                 <div class="bg-primary p-8 rounded-md shadow flex flex-col gap-8">
                     <div class="flex items-center gap-4">
                         <IconMoney />
-                        <span class="text-white text-4xl font-bold">2 Anos</span>
+                        <span class="text-white text-3xl font-bold">+ Sustentabilidade</span>
                     </div>
-                    <p class="text-justify text-white">Com 2 anos de experiência em distribuição de energia, adquirimos expertise valiosa no setor. Estamos prontos para oferecer soluções inovadoras e sustentáveis às demandas do mercado.</p>
+                    <p class="text-justify text-white">Estamos comprometidos em liderar com soluções sustentáveis e inovadoras, atendendo às exigências ecológicas do mercado. Nosso foco é desenvolver práticas que promovam a proteção ambiental e a eficiência energética.</p>
                 </div>
 
                 <div class="bg-secondary p-8 rounded-md shadow flex flex-col gap-8">
                     <div class="flex items-center gap-4">
                         <IconPlant />
-                        <span class="text-white text-4xl font-bold">+10 Toneladas</span>
+                        <span class="text-white text-3xl font-bold">+10 Toneladas</span>
                     </div>
                     <p class="text-justify text-white">Reduzimos mais de 10 toneladas de CO2 por ano com nossas soluções, demonstrando nosso compromisso ambiental. Continuaremos desenvolvendo iniciativas para um futuro mais sustentável.</p>
                 </div>
@@ -22,7 +22,7 @@
                 <div class="bg-primary p-8 rounded-md shadow flex flex-col gap-8">
                     <div class="flex items-center gap-4">
                         <IconTopWInner />
-                        <span class="text-white text-4xl font-bold">+5 Fazendas</span>
+                        <span class="text-white text-3xl font-bold">+5 Fazendas</span>
                     </div>
                     <p class="text-justify text-white">Com mais de cinco fazendas colaborando, estamos impulsionando a economia local para residências e estabelecimentos comerciais. Essa parceria fortalece as operações das fazendas e promove o crescimento econômico sustentável em nossa região.</p>
                 </div>
