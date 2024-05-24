@@ -1,5 +1,5 @@
 <template>
-    <section id="hero" class="w-full xs:h-[115vh] md:h-[calc(100dvh_-_100px)] bg-cover bg-center xs:bg-[url('/bg-mobile.png')] md:bg-[url('/bg.png')]">
+    <section id="hero" class="w-full xs:h-[115vh] md:h-[calc(100dvh_-_100px)] bg-cover bg-center xs:bg-[url('/banner-mobile.png')] md:bg-[url('/banner-desktop.png')]">
         <Container class="h-full flex xs:items-start md:items-center">
             <div class="flex flex-col gap-2 xs:mt-8 md:mt-0">
                 <p class="xs:text-center md:text-start font-light">Chega de pagar <span class="font-bold text-primary">contas de energia abusivas</span></p>

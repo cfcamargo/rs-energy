@@ -7,7 +7,7 @@
     <CardsSection />
     <!-- <Testimonials /> -->
     <CallToActionBanner />
-    <EmployerSection />
+    <!-- <EmployerSection /> -->
     <Contact />
   </main>
   <FooterSection />

@@ -22,9 +22,9 @@
                 <div class="bg-primary p-8 rounded-md shadow flex flex-col gap-8">
                     <div class="flex items-center gap-4">
                         <IconTopWInner />
-                        <span class="text-white text-3xl font-bold">+5 Fazendas</span>
+                        <span class="text-white text-3xl font-bold">Nossas fazenda </span>
                     </div>
-                    <p class="text-justify text-white">Com mais de cinco fazendas colaborando, estamos impulsionando a economia local para residências e estabelecimentos comerciais. Essa parceria fortalece as operações das fazendas e promove o crescimento econômico sustentável em nossa região.</p>
+                    <p class="text-justify text-white">As fazendas de energia solar estão impulsionando a economia local de forma sustentável. Utilizando tecnologias avançadas, elas reduzem a dependência de combustíveis fósseis.</p>
                 </div>
             </div>
             <a href="#" class="text-center xs:w-full md:w-auto p-4 bg-primary font-bold text-2xl text-white rounded shadow brightness-105 flex justify-center gap-4 items-center">
